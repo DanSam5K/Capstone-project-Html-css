@@ -12,31 +12,29 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav justify-content-center nav-pills bg-dark">
-        <ul class="nav flex align-items-center">
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <img src="assets/images/logo.svg" width="40" hight="40" alt="zattix logo">
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fa fa-home" aria-hidden="true"></i>home
-                </a>
-            </li>
-            <li class="nav-item"> 
-                <a href="#" class="nav-link"> 
-                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>purchase list
-                </a>
-            </li>
-            <li class="mr-sm-4 d-none d-sm-block"><a href="./search.html"><i class="fas fa-search mr-1"></i> Search</a></li>
-            <li class="nav-item">
-                <button class="pills-home-tab" class="nav-link">
-                    search
-                </button>
-            </li>
+    <!--Nav section-->
+    <nav class="nav bg-dark py-1 text-gray">
+      <div class="nav-container">
+        <ul class="nav-left mb-0 text-uppercase">
+          <li class="nav-brand"><a href="#"><img src="assets/images/logo.svg" width="40" hight="40" alt="zattix logo"></a></li>
+          <li class="active mr-2 mr-sm- ml-2"><a href="./index.hmtl"><i class="fa fa-home mr-3" aria-hidden="true"></i>home</a></li>
+          <li class="mr-2 mr-sm-4"><a href="#"><i class="fas fa-th-list mr-1"></i>purchase list</a></li>
+          <li class="mr-sm-4 d-none d-sm-block"><a href="./search.html"><i class="fas fa-search mr-1"></i>Search</a></li>
+          <li class="d-none d-sm-block">
+            <button class="nav-button bg-danger p-2 font-weight-bold text-white text-uppercase" type="button" class="nav-link">sell musical instrument</button>
+          </li>
         </ul>
+
+        <ul class="nav-account d-flex align-items-center mb-0">
+          <li class="nav-account-item mr-3">
+            <a href="" class="nav-account-notifications h6"><i class="fas fa-envelope"></i></a></li>
+          <li class="nav-account-avatar mr-2"><a href=""><img class="rounded-circle" src="https://avatars.githubusercontent.com/u/50230297?s=60&v=4" alt="Account holder"></a></li>
+        </ul>
+      </div>
     </nav>
+
+
+    
 
 
     <!--Bootstrap Bundle with popper-->
