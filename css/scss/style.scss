@@ -32,3 +32,62 @@ select:active {
   outline: none;
   border: none;
 }
+
+// general
+body {
+  font-family: $font-gotham;
+  line-height: 1.4;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-black {
+  background-color: $theme-black;
+}
+
+.bg-red {
+  background-color: $theme-primary;
+}
+
+.text-gray {
+  color: $theme-gray;
+}
+
+.text-black {
+  color: $theme-black;
+}
+
+.font-gotham-light {
+  font-family: $font-gotham-light;
+}
+
+.font-helvetica {
+  font-family: $font-helvetica;
+}
+
+.font-helvetica-light {
+  font-family: $font-helvetica-light;
+}
+
+.active,
+.text-red {
+  color: $theme-primary;
+}
+
+.button-primary {
+  @include button-primary;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.image-buttons {
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+}

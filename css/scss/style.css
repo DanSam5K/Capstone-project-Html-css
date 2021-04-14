@@ -53,4 +53,67 @@ select:active {
   outline: none;
   border: none;
 }
+
+body {
+  font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+  line-height: 1.4;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-black {
+  background-color: #383838;
+}
+
+.bg-red {
+  background-color: #d35266;
+}
+
+.text-gray {
+  color: #888;
+}
+
+.text-black {
+  color: #383838;
+}
+
+.font-gotham-light {
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.font-helvetica {
+  font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.font-helvetica-light {
+  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.active,
+.text-red {
+  color: #d35266;
+}
+
+.button-primary {
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: #d35266;
+  color: white;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.d-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.image-buttons {
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
