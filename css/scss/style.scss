@@ -346,5 +346,44 @@ img {
         display: inline-block;
       }
     }
+
+    @media (min-width: 420px) {
+      .footer-settings {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: right;
+      }
+    }
+  }
+
+  .footer-copyright {
+    font-size: 14px;
+    max-width: 900px;
   }
 }
+
+//adaptable to small screens
+@media (min-width: 576px) {
+  .articles .articles-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+  }
+
+  .footer-company {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+  }
+
+  .footer-settings {
+    grid-column: 1 / span 2;
+  }
+
+  .footer-main .footer-group-double {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
