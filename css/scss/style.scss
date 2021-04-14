@@ -14,6 +14,7 @@
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 a:hover,
@@ -98,13 +99,13 @@ img {
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
-  letter-spacing: -1.5px;
+  letter-spacing: 0.1px;
   width: 100%;
   max-width: 992px;
   margin: 0 auto;
 
   .nav-brand {
-    width: 75px;
+    width: 50px;
   }
 
   .nav-button {
@@ -372,7 +373,7 @@ img {
     max-width: 900px;
 
     .footer-company-logo {
-      width: 140px;
+      width: 100px;
       margin: 0 auto;
       background-color: $theme-gray;
     }
