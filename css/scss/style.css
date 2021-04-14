@@ -132,7 +132,6 @@ img {
   width: 100%;
   max-width: 992px;
   margin: 0 auto;
-  /* Search */
 }
 
 .nav-container .nav-brand {
@@ -217,7 +216,6 @@ img {
   max-width: 600px;
 }
 
-/* Slider */
 .slider .slider-section-title {
   font-size: 16px;
 }
@@ -259,5 +257,95 @@ img {
 .slider .slider-location,
 .slider .slider-author {
   font-size: 13px;
+}
+
+.main-section-container {
+  background-color: #f2f2f2;
+}
+
+.articles .articles-title {
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+.articles .articles-title i {
+  font-size: 24px;
+}
+
+.articles .articles-subtitle {
+  font-size: 12px;
+}
+
+.articles .articles-container {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+}
+
+.articles .articles-container .article {
+  padding-bottom: 8px;
+  font-size: 14px;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.articles .articles-container .article .article-image {
+  height: 200px;
+}
+
+.articles .articles-container .article .article-image img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.articles .articles-container .article .article-title {
+  font-size: 16px;
+}
+
+.articles .articles-container .article .article-button {
+  font-size: 20px;
+  color: #bbbbbb;
+  background-color: #fff;
+}
+
+.articles .articles-container .article .article-popover {
+  display: none;
+  background-color: #fff;
+  width: 150px;
+  height: 110px;
+  top: -118px;
+  left: calc(50% - 75px);
+}
+
+.articles .articles-container .article .article-popover .article-popover-item:last-child::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  z-index: 1;
+  border-left: 0.1px solid #d5d5d5;
+  border-bottom: 0.1px solid #d5d5d5;
+  bottom: -8px;
+  left: calc(50% - 5px);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.articles .articles-container .article .article-button:hover,
+.articles .articles-container .article .article-button:active,
+.articles .articles-container .article .article-button:focus {
+  background-color: #383838;
+  color: #d35266;
+}
+
+.articles .articles-container .article .article-button:hover + .article-popover,
+.articles .articles-container .article .article-button:active + .article-popover,
+.articles .articles-container .article .article-button:focus + .article-popover {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
