@@ -303,3 +303,48 @@ img {
     }
   }
 }
+
+//footer sectionS
+.footer {
+  .footer-main {
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    max-width: 900px;
+
+    .footer-company-logo {
+      width: 140px;
+      margin: 0 auto;
+      background-color: $theme-gray;
+    }
+
+    .footer-company-description {
+      text-align: justify;
+      text-justify: auto;
+    }
+
+    .footer-links-group {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 15px;
+    }
+
+    .footer-links-title {
+      border-bottom: 1px solid $theme-primary;
+      font-size: 16px;
+    }
+
+    .footer-settings {
+      text-align: center;
+
+      .footer-setting-label,
+      .footer-setting-select {
+        font-size: 14px;
+      }
+
+      .footer-setting-select {
+        text-align: center;
+        min-width: 120px;
+        display: inline-block;
+      }
+    }
+  }
+}
