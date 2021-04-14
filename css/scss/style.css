@@ -169,4 +169,51 @@ img {
 .nav-container a:hover {
   color: #d5d5d5;
 }
+
+.showcase {
+  background: #d35266;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(211, 82, 102, 0.403799)), color-stop(25%, rgba(211, 82, 102, 0.804359)), color-stop(75%, rgba(211, 82, 102, 0.801558)), color-stop(92%, rgba(211, 82, 102, 0.633491))), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjED1ZXfSdqbtMXziF4wcHBWblycNXUqvF7Q&usqp=CAU");
+  background: linear-gradient(270deg, rgba(211, 82, 102, 0.403799) 0%, rgba(211, 82, 102, 0.804359) 25%, rgba(211, 82, 102, 0.801558) 75%, rgba(211, 82, 102, 0.633491) 92%), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjED1ZXfSdqbtMXziF4wcHBWblycNXUqvF7Q&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.showcase .showcase-title {
+  font-size: 28px;
+}
+
+.showcase .showcase-subtitle {
+  font-size: 14px;
+}
+
+.showcase .showcase-search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.showcase .showcase-search-form input,
+.showcase .showcase-search-form select {
+  border: 1px solid #d35266;
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 40px;
+  background-color: #fff;
+}
+
+.showcase .showcase-details {
+  max-width: 600px;
+}
 /*# sourceMappingURL=style.css.map */

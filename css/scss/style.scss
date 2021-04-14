@@ -131,3 +131,41 @@ img {
     color: lighten($theme-gray, $amount: 30);
   }
 }
+
+// display
+.showcase {
+  background: rgb(211, 82, 102);
+  background: linear-gradient(270deg, rgba(211, 82, 102, 0.40379901960784315) 0%, rgba(211, 82, 102, 0.804359243697479) 25%, rgba(211, 82, 102, 0.8015581232492998) 75%, rgba(211, 82, 102, 0.6334908963585435) 92%), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjED1ZXfSdqbtMXziF4wcHBWblycNXUqvF7Q&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .showcase-title {
+    font-size: 28px;
+  }
+
+  .showcase-subtitle {
+    font-size: 14px;
+  }
+
+  .showcase-search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input,
+    select {
+      border: 1px solid $theme-primary;
+      font-size: 14px;
+      max-width: 600px;
+      margin: 0 auto;
+      height: 40px;
+      background-color: #fff;
+    }
+  }
+
+  .showcase-details {
+    max-width: 600px;
+  }
+}
