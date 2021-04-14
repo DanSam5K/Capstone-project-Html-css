@@ -116,4 +116,57 @@ img {
   right: 0;
   font-size: 20px;
 }
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: -1.5px;
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+  /* Search */
+}
+
+.nav-container .nav-brand {
+  width: 75px;
+}
+
+.nav-container .nav-button {
+  border-radius: 2px;
+  -webkit-animation-name: colorswitch;
+          animation-name: colorswitch;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.nav-container .nav-right,
+.nav-container .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.nav-container .nav-account-avatar {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-container a:hover {
+  color: #d5d5d5;
+}
 /*# sourceMappingURL=style.css.map */

@@ -91,3 +91,43 @@ img {
   right: 0;
   font-size: 20px;
 }
+
+// Nav Sections
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: -1.5px;
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+
+  .nav-brand {
+    width: 75px;
+  }
+
+  .nav-button {
+    border-radius: 2px;
+    animation-name: colorswitch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .nav-right,
+  .nav-left {
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+
+  /* Search */
+  .nav-account-avatar {
+    width: 25px;
+    height: 25px;
+  }
+
+  a:hover {
+    color: lighten($theme-gray, $amount: 30);
+  }
+}
