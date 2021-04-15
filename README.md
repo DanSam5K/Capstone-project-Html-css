@@ -3,15 +3,17 @@
 
 > This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a musical instrument website for different instrument including local, website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
 
-## Watch a video presentation of the project [here]()
+## Watch a video presentation of the project [here](https://www.loom.com/share/89eaad41f2714de4b45b8ca87b4cffb7)
 
 ## Screenshot of the home page
 
-![screenshot]()
+![screenshot](./assets/images/screenshothp.png)
 
 ## Screenshot of the search page
 
-![screenshot]()
+![screenshot](./assets/images/screenshotsp.png)
+
+[find design specification by Mohammed Awad here](https://www.behance.net/gallery/24796463/ZATTIX)
 
 
 The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties. I used all SCSS core functionality: variables, mixins and color functions.
@@ -35,7 +37,7 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 
 ### Setup
 
-Clone the project locally using _git clone git@github.com:DanSam5K/Capstone-project-Html-css.git_
+Clone the project locally using  _git clone git@github.com:DanSam5K/Capstone-project-Html-css.git_
 
 ### Linters
 
