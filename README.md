@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 # Online musiscal shop (index and search page) - Built time 72 hours
 
-> This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a musical instrument website for different instrument including local, website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
+> This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a musical instrument store for displaying different instrument including local varieties, this website was designed using HTML, CSS3/SCSS, Bootstrap, Font awesome with also an extensive use of the grid and flex properties. I used all SCSS core functionality: variables, mixins and color functions.
 
 ## Watch a video presentation of the project [here](https://www.loom.com/share/89eaad41f2714de4b45b8ca87b4cffb7)
 
@@ -14,10 +14,6 @@
 ![screenshot](./assets/images/screenshotsp.png)
 
 [find design specification by Mohammed Awad here](https://www.behance.net/gallery/24796463/ZATTIX)
-
-
-The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties. I used all SCSS core functionality: variables, mixins and color functions.
-
 ## Built With
 
 - HTML
@@ -31,14 +27,16 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 
 [Live Demo](https://dansam5k.github.io/Capstone-project-Html-css/)
 
-(You can navigate between pages using the navigation links and the search form.)
+- You can navigate between pages using the navigation links and the search form.
 
 ## To get a local copy up and running follow these simple example steps.
 
-### Setup
-
-Clone the project locally using  _git clone git@github.com:DanSam5K/Capstone-project-Html-css.git_
-
+- Create a folder in your local machine 
+- From your local device `cd` into the local repository
+- From machine terminal type
+- `$ git clone https://github.com/DanSam5K/Capstone-project-Html-css.git`
+- cd into the clone project folder
+- Then you have a local version on your machine.
 ### Linters
 
 1. run `npm install`.
@@ -46,13 +44,11 @@ Clone the project locally using  _git clone git@github.com:DanSam5K/Capstone-pro
 2. run `npm run watch` to start watching for SCSS changes.
 
 ### Deployment
-
-Install and run a live server plugin on you IDE/Text editor and run it from the root directory.
+ - Deployed using github pages.
 
 ### Future improvements
 
-Add a backend to the page
-
+- I Plan to add a backend features in future.
 ## Authors
 
 👤 **Daniel Samuel**
