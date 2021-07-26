@@ -33,15 +33,16 @@
 
 - Create a folder in your local machine 
 - From your local device `cd` into the local repository
-- From machine terminal type
-- `$ git clone https://github.com/DanSam5K/Capstone-project-Html-css.git`
+- From machine terminal
+- run `$ git clone https://github.com/DanSam5K/Capstone-project-Html-css.git`
 - cd into the clone project folder
 - Then you have a local version on your machine.
 ### Linters
-
-1. run `npm install`.
-2. run `npm run test` to check the HTML and CSS files.
-2. run `npm run watch` to start watching for SCSS changes.
+- From your command line terminal follow the instructions to run linters check:
+1. run `$ npm install`.
+2. run `$ npx hint --telemetry=off .` to check the HTML 
+3. run `$ npx stylelint "**/*.{css,scss}"` to check for errors in CSS files.
+4. run `npm run watch` to start watching for SCSS changes.
 
 ### Deployment
  - Deployed using github pages.
