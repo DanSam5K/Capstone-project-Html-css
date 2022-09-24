@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 # Online musical shop (index and search page) - Built time 72 hours
 
-> This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a musical instrument store for displaying different instrument including local varieties, this website was designed using HTML, CSS3/SCSS, Bootstrap, Font awesome with also an extensive use of the grid and flex properties. I used all SCSS core functionality: variables, mixins and color functions.
+> A capstone project at [Microverse](https://www.microverse.org) module HTML/CSS. A musical instrument store for displaying different instrument including local varieties, this website was designed using HTML, CSS3/SCSS, Bootstrap, Font awesome with also an extensive use of the grid and flex properties. I used all SCSS core functionality: variables, mixins, module and functions.
 
 ## Watch a video presentation of the project [here](https://www.loom.com/share/89eaad41f2714de4b45b8ca87b4cffb7)
 
