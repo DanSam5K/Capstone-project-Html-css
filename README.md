@@ -22,6 +22,7 @@
 - Font awesome icons
 - Webhint/Stylelint linters
 - NPM scripts for testing and running the SCSS changes
+- Linters
 
 ## Live Demo
 
