@@ -9,7 +9,7 @@
 
 ![screenshot](./assets/images/screenshothp.png)
 
-## Screenshot of the search pag
+## Screenshot of the search page
 
 ![screenshot](./assets/images/screenshotsp.png)
 
